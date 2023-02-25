@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "../style/Projects.css"
+import ProjectCard from './ProjectCard'
 
 const projects = {
     "Schedulii": {
@@ -16,7 +17,6 @@ const projects = {
   }
 }
 
-
 export default class Projects extends Component {
   render() {
     return (
@@ -32,16 +32,16 @@ export default class Projects extends Component {
             </p>
             </section>
 
-        <div>
-        <ul className='projects-displaygrid'>
+        <div className='projects-displaygrid'>
                         {Object.keys(projects).map((key, value) => (
-                            <li className='"projects-card'>
-                            <div className='card-name'>{key}</div>
-                            <div className='card-description'>{projects[key]["description"]}</div>
-                            <div className='card-tech'>{projects[key]["tech"]}</div>
-                        </li>
+                            <div className='"project-card'>
+                              <ProjectCard
+                              title={key}
+                              description={projects[key]["description"]}
+                              tech={projects[key]["tech"]}></ProjectCard>
+
+                        </div>
                         ))}
-                    </ul>
         </div>
 
       </div>

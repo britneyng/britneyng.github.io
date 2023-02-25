@@ -3,7 +3,7 @@ import Intro from './components/Intro'
 import About from './components/About'
 import Projects from './components/Projects'
 import Navbar from './components/Navbar.js';
-import TechStack from './components/TechStack';
+// import TechStack from './components/TechStack';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
         <Navbar></Navbar>
         <Intro></Intro>
         <About></About>
+        {/* <TechStack></TechStack> */}
         <Projects></Projects>
-        <TechStack></TechStack>
       </header>
     </div>
   );

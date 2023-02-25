@@ -1,0 +1,35 @@
+.card-container {
+    position: relative;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    background-color: #112240;
+    border-radius: 16px;
+}
+
+.card-container:hover {
+    transform: translateY(-7px);
+    transition: ease-in 0.10s;
+}
+
+.card-name {
+    font-size: 18px;
+    color: #ccd6f6;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #a8b2d1;
+    padding-top: 7%;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.card-tech {
+    font-size: 14px;
+    color: #a8b2d1;
+    padding-top: 5%;
+
+}
