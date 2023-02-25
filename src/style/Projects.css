@@ -3,9 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 10%;
-    scroll-behavior: smooth;
+    padding-top: 2%;
 }
 
 .projects-displaygrid {
@@ -13,14 +11,9 @@
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     padding-top: 10px;
     gap: 15px;
+    column-gap: 10px;
+
 }
-
-@media (max-width: 1080px) {
-    .projects-displaygrid {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    }
-  }
-
 
 .projects-title {
     font-weight: 500;
