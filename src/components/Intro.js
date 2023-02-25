@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "../style/intro.css"
+import arrow from "../images/down-scroll.png"
 
 export default class Intro extends Component {
   render() {
@@ -17,7 +18,9 @@ export default class Intro extends Component {
           Resume
         </button>
         <footer>
-          {/* need to add linking here later */}
+          <a href="#about">
+          <img src={arrow} alt="scroll-arrow" id="scroll-arrow"></img>
+          </a>
         </footer>
       </div>
     )
