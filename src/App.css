@@ -5,10 +5,9 @@
 }
 
 .App-header {
-  background-color: #0a192f;
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   color: rgb(255, 255, 255);
   font-family: "Figtree", sans-serif;
   font-size: 21px;

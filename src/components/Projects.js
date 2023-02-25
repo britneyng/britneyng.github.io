@@ -40,8 +40,8 @@ export default class Projects extends Component {
                               description={projects[key]["description"]}
                               tech={projects[key]["tech"]}></ProjectCard>
 
-                        </div>
-                        ))}
+        </div>
+          ))}
         </div>
 
       </div>
