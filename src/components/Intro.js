@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import "../style/intro.css"
 
-
 export default class Intro extends Component {
   render() {
     return (
@@ -14,11 +13,11 @@ export default class Intro extends Component {
             welcome to my personal website!
         </section>
 
-        <footer>
-          {/* need to add linking here later */}
-          <button>
+        <button>
           Resume
         </button>
+        <footer>
+          {/* need to add linking here later */}
         </footer>
       </div>
     )

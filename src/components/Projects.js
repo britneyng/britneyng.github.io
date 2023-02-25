@@ -5,15 +5,18 @@ import ProjectCard from './ProjectCard'
 const projects = {
     "Schedulii": {
         description: "A calendar application that collates Google Calendar availability for a group of users, and finds the best time to meet.",
-        tech: "Go, Typescript, React, PostgreSQL, Github Actions, Docker"
+        tech: "Go, Typescript, React, PostgreSQL, Github Actions, Docker",
+        link: "https://github.com/lourw/schedulii"
     },
     "PomoPet": {
       description: "A Hackathon Project.",
-      tech: "Javascript, HTML, CSS"
+      tech: "Javascript, HTML, CSS",
+      link: "https://github.com/britneyng/pomo"
   },
     "MyRecipeBuddy": {
       description: "An application that allows for easy storage and management of an ever-growing list of personal recipes.",
-      tech: "Java, Swing, JUnit"
+      tech: "Java, Swing, JUnit",
+      link: "https://github.com/britneyng/recipebook"
   }
 }
 
@@ -38,9 +41,11 @@ export default class Projects extends Component {
                               <ProjectCard
                               title={key}
                               description={projects[key]["description"]}
-                              tech={projects[key]["tech"]}></ProjectCard>
+                              tech={projects[key]["tech"]}
+                              link={projects[key]["link"]}>
 
-        </div>
+                              </ProjectCard>
+                            </div>
           ))}
         </div>
 

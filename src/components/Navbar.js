@@ -9,7 +9,7 @@ export default class navbar extends Component {
             <ul>
                 <li><a href="#about"> &lt;about&gt; </a></li>
                 <li><a href="#projects">  &lt;projects&gt; </a></li>
-                <li><a href="#projects">  &lt;contact&gt; </a></li>
+                <li><a href="#contact">  &lt;contact&gt; </a></li>
             </ul>
         </section>
     </div>

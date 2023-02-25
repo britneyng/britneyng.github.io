@@ -7,20 +7,24 @@
     padding: 2rem 1.75rem;
     background-color: #112240;
     border-radius: 16px;
+    will-change: transform;
+    transition: transform 450ms;
 }
 
 .card-container:hover {
-    transform: translateY(-7px);
-    transition: ease-in 0.10s;
+    transition: transform 125ms;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
-.card-name {
-    font-size: 18px;
+.card-title {
+    padding-right: 50%;
+    font-size: 25px;
     color: #ccd6f6;
 }
 
 .card-description {
-    font-size: 16px;
+    font-size: 18px;
     color: #a8b2d1;
     padding-top: 10%;
     text-align: left;
@@ -28,8 +32,16 @@
 }
 
 .card-tech {
-    font-size: 14px;
+    font-size: 15px;
     color: #a8b2d1;
     padding-top: 10%;
+}
 
+#github-icon {
+    width: 10%;
+    height: auto;
+    display: inline;
+    margin-left: 70%;
+    margin-right: 10%;
+    position: fixed;
 }
