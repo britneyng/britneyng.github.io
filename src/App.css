@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500&display=swap');
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #0a192f;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column; */
+  color: rgb(255, 255, 255);
+  font-family: "Figtree", sans-serif;
+  font-size: 21px;
+  padding-left: 10%;
+  padding-right: 10%
+}

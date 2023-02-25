@@ -1,0 +1,46 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #e6f1ff;
+    font-size: 20px;
+    font-weight: 400;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 30px;
+}
+
+button {
+    border-radius: 30px;
+    font-family: "Figtree", sans-serif;
+    font-size: 17px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-weight: 500;
+    background-color:#7ef5bb;
+}
+
+button:hover {
+    transition: all 0.10s ease-out;
+    transform: translateY(-2px);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

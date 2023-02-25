@@ -1,0 +1,30 @@
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.intro-title {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Figtree", sans-serif;
+    color: #ccd6f6;
+}
+
+.intro-subtitle {
+    font-size: 30px;
+    font-weight: 100;
+    color: #a8b2d1;
+    font-family: "Figtree", sans-serif;
+}
+
+.name {
+    color: #7ef5bb;
+}
+
+footer {
+    padding-top: 5%;
+}
