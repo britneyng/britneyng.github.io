@@ -8,18 +8,18 @@ const projects = {
         tech: "Go, Typescript, React, PostgreSQL, Github Actions, Docker",
         link: "https://github.com/lourw/schedulii"
     },
-    "PomoPet": {
-      description: "A Hackathon Project.",
+    "Pomo": {
+      description: "A pomodoro study app, complete with a virtual pet that motivates and encourages users to keep being productive.",
       tech: "Javascript, HTML, CSS",
       link: "https://github.com/britneyng/pomo"
   },
-    "MyRecipeBuddy": {
+    "RecipeBuddy": {
       description: "An application that allows for easy storage and management of an ever-growing list of personal recipes.",
       tech: "Java, Swing, JUnit",
       link: "https://github.com/britneyng/recipebook"
   },
     "This website": {
-      description: "An application that allows for easy storage and management of an ever-growing list of personal recipes.",
+      description: "The website you're on now! Built from scratch with React, this website acts as a personal portfolio for my work.",
       tech: "React, Javascript, HTML, CSS",
       link: "https://github.com/britneyng/recipebook"
   }
