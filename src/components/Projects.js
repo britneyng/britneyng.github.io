@@ -20,7 +20,7 @@ const projects = {
   },
     "This website": {
       description: "An application that allows for easy storage and management of an ever-growing list of personal recipes.",
-      tech: "React, HTML, CSS, Javascript",
+      tech: "React, Javascript, HTML, CSS",
       link: "https://github.com/britneyng/recipebook"
   }
 }
