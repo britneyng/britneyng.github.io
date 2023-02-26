@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import "../style/Intro.css"
-import arrow from "../images/down-scroll.png"
-import resume from "../images/resume.pdf"
+import React, { Component } from "react";
+import "../style/Intro.css";
+import arrow from "../images/down-scroll.png";
+import resume from "../images/resume.pdf";
 
 export default class Intro extends Component {
   render() {
@@ -12,21 +12,19 @@ export default class Intro extends Component {
         </section>
 
         <section className="intro-subtitle">
-            welcome to my personal website!
+          welcome to my personal website!
         </section>
 
         <a href={resume} target="_blank">
-          <button>
-          Resume
-        </button>
+          <button>Resume</button>
         </a>
 
         <footer>
           <a href="#about">
-          <img src={arrow} alt="scroll-arrow" id="scroll-arrow"></img>
+            <img src={arrow} alt="scroll-arrow" id="scroll-arrow"></img>
           </a>
         </footer>
       </div>
-    )
+    );
   }
 }
