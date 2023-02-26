@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "../style/intro.css"
+import "../style/Intro.css"
 import arrow from "../images/down-scroll.png"
 
 export default class Intro extends Component {

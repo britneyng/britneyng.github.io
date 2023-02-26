@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 
 const projects = {
     "Schedulii": {
-        description: "A calendar application that collates Google Calendar availability for a group of users, and finds the best time to meet.An application that allows for easy storage and management of an ever-growing list of personal recipes.",
+        description: "A calendar application that collates Google Calendar availability for a group of users, and finds the best time to meet.",
         tech: "Go, Typescript, React, PostgreSQL, Github Actions, Docker",
         link: "https://github.com/lourw/schedulii"
     },

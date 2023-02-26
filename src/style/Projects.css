@@ -10,9 +10,8 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     padding-top: 10px;
-    gap: 15px;
     column-gap: 10px;
-
+    row-gap: 15px;
 }
 
 .projects-title {
