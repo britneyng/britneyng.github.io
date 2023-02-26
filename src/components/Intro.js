@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import "../style/Intro.css"
 import arrow from "../images/down-scroll.png"
 import resume from "../images/resume.pdf"
-import TypewriterComponent from 'typewriter-effect'
 
 export default class Intro extends Component {
   render() {
