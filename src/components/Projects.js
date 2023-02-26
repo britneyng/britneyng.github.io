@@ -19,9 +19,9 @@ const projects = {
       link: "https://github.com/britneyng/recipebook"
   },
     "This website": {
-      description: "The website you're on now! Built from scratch with React, this website acts as a personal portfolio for my work.",
+      description: "The website you're on now! Built from scratch with React, this site acts as a personal portfolio for my work.",
       tech: "React, Javascript, HTML, CSS",
-      link: "https://github.com/britneyng/recipebook"
+      link: "https://github.com/britneyng/personal-website"
   }
 }
 
