@@ -39,3 +39,12 @@ footer {
   width: 30px;
   height: auto;
 }
+
+#profile-picture {
+  width: 19%;
+  height: auto;
+  margin-left: 15%;
+  top: 160px;
+  position: absolute;
+  border-radius: 15%;
+}

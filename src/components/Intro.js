@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../style/Intro.css";
 import arrow from "../images/down-scroll.png";
 import resume from "../images/resume.pdf";
+import profile_picture from "../images/profile-picture.png";
 
 export default class Intro extends Component {
   render() {
@@ -9,8 +10,8 @@ export default class Intro extends Component {
       <div id="intro">
         <section className="intro-title">
           hi there, i'm <element className="name">britney.</element>
+          <img src={profile_picture} alt="profile-picture" id="profile-picture"></img>
         </section>
-
         <section className="intro-subtitle">
           welcome to my personal website!
         </section>
