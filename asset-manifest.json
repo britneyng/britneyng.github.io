@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.673873cf.css",
-    "main.js": "/personal-website/static/js/main.8ef762e7.js",
-    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
-    "static/media/profile-picture.png": "/personal-website/static/media/profile-picture.1c240baa6dc5c06f9ff6.png",
-    "static/media/resume.pdf": "/personal-website/static/media/resume.67c34416736328b64193.pdf",
-    "static/media/email.png": "/personal-website/static/media/email.c1977d1447a6576a37b9.png",
-    "index.html": "/personal-website/index.html",
-    "main.673873cf.css.map": "/personal-website/static/css/main.673873cf.css.map",
-    "main.8ef762e7.js.map": "/personal-website/static/js/main.8ef762e7.js.map",
-    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
+    "main.css": "/britneyng.github.io/static/css/main.673873cf.css",
+    "main.js": "/britneyng.github.io/static/js/main.90120730.js",
+    "static/js/787.28298e1b.chunk.js": "/britneyng.github.io/static/js/787.28298e1b.chunk.js",
+    "static/media/profile-picture.png": "/britneyng.github.io/static/media/profile-picture.1c240baa6dc5c06f9ff6.png",
+    "static/media/resume.pdf": "/britneyng.github.io/static/media/resume.67c34416736328b64193.pdf",
+    "static/media/email.png": "/britneyng.github.io/static/media/email.c1977d1447a6576a37b9.png",
+    "index.html": "/britneyng.github.io/index.html",
+    "main.673873cf.css.map": "/britneyng.github.io/static/css/main.673873cf.css.map",
+    "main.90120730.js.map": "/britneyng.github.io/static/js/main.90120730.js.map",
+    "787.28298e1b.chunk.js.map": "/britneyng.github.io/static/js/787.28298e1b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.673873cf.css",
-    "static/js/main.8ef762e7.js"
+    "static/js/main.90120730.js"
   ]
 }
