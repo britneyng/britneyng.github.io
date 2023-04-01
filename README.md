@@ -1,6 +1,6 @@
 # My Website
 
-This is my personal website that I made both for fun and to keep track of the projects that I've worked on. Access it with this [link!](https://britneyng.github.io/personal-website/)
+This is my personal website that I made both for fun and to keep track of the projects that I've worked on. Access it with this [link!](https://britneyng.github.io/)
 
 ### To Run:
 
